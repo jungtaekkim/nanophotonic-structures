@@ -163,7 +163,5 @@ cython_debug/
 .DS_Store
 __MACOSX/
 *.swp
-outputs/
 collected_datasets/
-compressed_datasets/
 trained_models/
