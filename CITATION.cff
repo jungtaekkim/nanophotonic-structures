@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it.
+title: Datasets and Benchmarks for Nanophotonic Structure and Parametric Design Simulations
+url: https://github.com/jungtaekkim/nanophotonic-structures
+authors:
+- family-names: Kim
+  given-names: Jungtaek
+- family-names: Li
+  given-names: Mingxuan
+- family-names: Hinder
+  given-names: Oliver
+- family-names: Leu
+  given-names: Paul W.
+preferred-citation:
+  type: conference-paper
+  title: Datasets and Benchmarks for Nanophotonic Structure and Parametric Design Simulations
+  authors:
+    - family-names: Kim
+      given-names: Jungtaek
+    - family-names: Li
+      given-names: Mingxuan
+    - family-names: Hinder
+      given-names: Oliver
+    - family-names: Leu
+      given-names: Paul W.
+  collection-title: Advances in Neural Information Processing Systems 36
+  collection-type: proceedings
+  start: 0000
+  end: 0001
+  year: 2023
+  publisher:
+    name: Curran Associates, Inc.
+  url: https://arxiv.org/abs/2310.19053
+  address: New Orleans, Louisiana, USA
