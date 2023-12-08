@@ -23,8 +23,9 @@ preferred-citation:
       given-names: Oliver
     - family-names: Leu
       given-names: Paul W.
-  collection-title: Advances in Neural Information Processing Systems 36
+  collection-title: Advances in Neural Information Processing Systems (NeurIPS)
   collection-type: proceedings
+  volume: 36
   start: 1
   end: 15
   year: 2023
