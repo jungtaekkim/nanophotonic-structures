@@ -62,8 +62,6 @@ class BaseStructure(abc.ABC):
         assert depth_pml == 50
         depth_pml = self.transform(depth_pml)
 
-#        assert resolution % self.unit_length == 0
-
         if size_cell is None:
             self.use_fixed_size_cell = False
             size_cell = [np.inf, np.inf, np.inf]
@@ -138,11 +136,6 @@ class BaseStructure(abc.ABC):
         assert self.size_cell[1] != np.inf
         assert self.size_cell[2] != np.inf
         assert self.num_variables == len(self.labels)
-
-#        TOLERANCE = 1e-12
-#        for variable in variables:
-#            assert variable % (1 / self.resolution) < TOLERANCE \
-#                or (1 / self.resolution) - variable % (1 / self.resolution) < TOLERANCE
 
     def verify(self, variables):
         self.verify_general(variables)
@@ -415,16 +408,12 @@ class BaseStructure(abc.ABC):
             str_structure_empty, str_structure, str_efield_z, str_hfield_z = utils_io.get_str_figures(
                 self.name)
 
-#            if self.save_figures: plt.savefig(str_structure_empty)
             if self.show_figures: utils_io.visualize_3d(epsilons_empty)
 
-#            if self.save_figures: plt.savefig(str_structure)
             if self.show_figures: utils_io.visualize_3d(epsilons)
 
-#            if self.save_figures: plt.savefig(str_efield_z)
             if self.show_figures: utils_io.visualize_3d(epsilons)
 
-#            if self.save_figures: plt.savefig(str_hfield_z)
             if self.show_figures: utils_io.visualize_3d(epsilons)
 
     def set_axis(self):
