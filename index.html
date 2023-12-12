@@ -134,28 +134,43 @@
 <!-- END ABSTRACT -->
 
 
-<!-- START CONTRIBUTIONS -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Contributions</h2>
         <div class="content has-text-justified">
-            <ul>
-                <li>Development of a generic simulation scheme and pipeline for nanophotonic structures in Python, based on the open-source software, Meep, and licensed under the MIT license</li>
-                <li>Creation of datasets of a myriad of nanophotonic structures for electromagnetic interference shielding, anti-reflection, and solar cells</li>
-                <li>Investigation into the effects of altering grid sizes in electrodynamic simulations, providing insights into tradeoffs between time and accuracy</li>
-                <li>Introduction of benchmarks designed for the optimization of parametric structures</li>
-            </ul>
+          <ul>
+            <li>Development of a generic simulation scheme and pipeline for nanophotonic structures in Python, based on the open-source software, Meep, and licensed under the MIT license</li>
+            <li>Creation of datasets of a myriad of nanophotonic structures for electromagnetic interference shielding, anti-reflection, and solar cells</li>
+            <li>Investigation into the effects of altering grid sizes in electrodynamic simulations, providing insights into tradeoffs between time and accuracy</li>
+            <li>Introduction of benchmarks designed for the optimization of parametric structures</li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- END CONTRIBUTIONS -->
 
 
-<!-- Image carousel -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Real-World Applications</h2>
+        <div class="content has-text-justified">
+          <ul>
+            <li>Electromagnetic Inference Shielding: As the usage of electronic devices has grown, there is a growing demand for strategies to shield these devices from external electromagnetic waves and interference.</li>
+            <li>Anti-Reflective Coatings: Light traveling from air to glass partially reflects due to the disparity in index of refraction. Better anti-reflective structures can achieve broad-spectrum and wide-angle anti-reflection.</li>
+            <li>Solar Cells: Nanomaterials are revolutionizing solar cell technology, promising significantly enhanced efficiency and reduced costs.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
@@ -251,10 +266,8 @@
     </div>
   </div>
 </section>
-<!-- End image carousel -->
 
 
-<!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
@@ -473,10 +486,8 @@
     </div>
   </div>
 </section>
-<!-- End image carousel -->
 
 
-<!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
@@ -534,10 +545,29 @@
     </div>
   </div>
 </section>
-<!-- End image carousel -->
 
 
-<!-- Image carousel -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Optimization Modes</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our benchmarks support two modes for fast prototyping of optimization methods as follows.
+          </p>
+          <ul>
+            <li>Discretized Search Space Mode: A search space is discretized with the increment specified. At each configuration a simulation is run and the outcome of the simulation is recorded.</li>
+            <li>Surrogate Model Mode: Based on the dataset collected from the discretized search space, we fit a surrogate model. This allows us to evaluate any structural configuration in the search space using the trained surrogate model.</li>
+            <li>Simulation Mode: Users can directly run these simulations using our frameworks and perform an optimization algorithm by conducting a simulation at every iteration.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
@@ -584,10 +614,9 @@
     </div>
   </div>
 </section>
-<!-- End image carousel -->
 
 
-<!--BibTex citation -->
+<!-- START BibTex Citation -->
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title is-3 has-text-centered">Citation</h2>
@@ -605,7 +634,7 @@
     </code></pre>
   </div>
 </section>
-<!--End BibTex citation -->
+<!-- END BibTex Citation -->
 
 
 <footer class="footer">
