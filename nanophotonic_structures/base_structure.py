@@ -491,8 +491,6 @@ class BaseStructure(abc.ABC):
         return variable_or_variables / self.unit_length
 
     def _run(self, variables):
-        assert variables.dtype == int
-
         time_start = time.time()
         variables_original = variables
         variables = self.transform(variables)
