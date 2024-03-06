@@ -52,7 +52,7 @@ Our datasets can be accessed via [the Hugging Face repository](https://huggingfa
     title={Datasets and Benchmarks for Nanophotonic Structure and Parametric Design Simulations},
     booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
     volume={36},
-    pages={},
+    pages={4685--4715},
     year={2023},
     note={Datasets and Benchmarks Track}
 }
