@@ -26,8 +26,8 @@ preferred-citation:
   collection-title: Advances in Neural Information Processing Systems (NeurIPS)
   collection-type: proceedings
   volume: 36
-  start: 1
-  end: 15
+  start: 4685
+  end: 4715
   year: 2023
   publisher:
     name: Curran Associates, Inc.
